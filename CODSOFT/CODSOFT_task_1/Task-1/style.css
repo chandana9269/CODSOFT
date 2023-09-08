@@ -1,0 +1,285 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+   color: grey;
+}
+
+/* navbar */
+
+.navbar
+{
+    min-height: 70px;
+}
+
+nav, 
+.nav-contents{
+    display:flex;
+    /* background: rgb(153, 196, 234); */
+}
+
+nav
+{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-contents
+{
+    gap:32px;
+    list-style: none;
+    font-size: 24px;
+}
+
+.logo
+{
+    font-size: 32px;
+}
+
+/* section 1 */
+
+section
+{
+    padding-top: 4vh;
+    margin:0px 30px;
+    box-sizing: border-box;
+    min-height: fit-content ;
+}
+
+.profile_pic img
+{
+   border-radius: 50%; 
+   width: 400px;
+   height:400px;
+}
+.profile_pic
+{
+   margin:auto 0;
+   display: flex;
+}
+
+#profile
+{
+    display: flex;
+    justify-content: center;
+    gap: 10% ;
+    height: 80vhvh;
+    margin-top: 50px;
+}
+
+.description
+{
+    text-align: center;
+    align-self: center;
+}
+
+.description p
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.des_p1
+{
+    text-align: center;
+}
+.des_h1
+{
+    font-size: 48px;
+    text-align: center;
+}
+
+.des_p2
+{
+    margin-bottom: 16px;
+}
+
+/* BUTTONS */
+
+.button_container
+{
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.resume , .contact
+{
+    padding: 16px;
+    border-radius: 32px;
+    background-color: black;
+    color: white;
+    animation-name: button;
+    font-weight: 600; 
+    border: 1px rgb(53, 53, 53) solid;
+    
+}
+
+button:hover
+{
+    background: white;
+    color: black;
+}
+
+/* About Section */
+
+#about_me
+{
+    display: flex;
+    justify-content: center;
+}
+.about_left
+{
+    margin: 50px;
+    width: 50%;
+    padding: 45px;
+    text-align:justify;
+    font-size: 20px;
+    /* background-color: rgb(147, 189, 222); */
+    border-radius: 25% 2%;
+}
+.about_heading
+{
+    padding: 20px;
+    font-size:30px;
+}
+
+.about_pic img{
+    width: 400px;
+    height: 400px;
+    margin: 30px 20px ;
+    border-radius: 55%;
+}
+
+/* Skills Section */
+
+.skills_box img
+{
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+}
+
+
+.skills_box
+{
+    display: flex;
+    box-sizing: border-box;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    padding:10px ;
+}
+.skills_heading
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Project Section */
+
+#projects h1, #contact h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.project_container img
+{
+    width: 200px;
+    height: 200px;
+    border: 5px black solid;
+    border-radius: 50%;
+}
+
+.project_container
+{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.proj-1
+{
+    width: 20%;
+}
+
+.proj-1 h2
+{
+    margin: 20px;
+}
+.proj-1 p
+{
+    font-size: 17px;
+    text-align: center;
+}
+
+/* Contact section */
+
+#contact
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    
+}
+
+.contact_container
+{
+    display: flex;
+    justify-content: center;
+    border:2px grey solid;
+    border-radius:32px;
+    margin:32px auto;
+    padding: 16px;
+}
+
+.contact_info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 8px;
+    margin: 15px;
+    font-size: larger;
+}
+
+footer
+{
+    height: 26vh;
+    margin:0px 16px;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+ 
+
+

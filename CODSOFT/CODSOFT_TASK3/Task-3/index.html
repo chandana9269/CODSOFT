@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <input type="text" id="screen" placeholder="0">
+        </div>
+         <div class="row">
+            <button onclick="clearScreen()" class="cancel_btn"> AC </button>
+            <button onclick="del()" class="operator"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="getValue(event)" class="operator"> % </button>
+            <button onclick="getValue(event)" class="operator"> / </button>
+        </div>
+        <div class="row">
+            <button onclick="getValue(event)"> 7 </button>
+            <button onclick="getValue(event)"> 8 </button>
+            <button onclick="getValue(event)"> 9 </button>
+            <button onclick="getValue(event)" class="operator"> * </button>
+        </div>
+        <div class="row">
+            <button onclick="getValue(event)"> 4 </button>
+            <button onclick="getValue(event)"> 5 </button>
+            <button onclick="getValue(event)"> 6 </button>
+            <button onclick="getValue(event)" class="operator"> + </button>
+        </div>
+        <div class="row">
+            <button onclick="getValue(event)"> 1 </button>
+            <button onclick="getValue(event)"> 2 </button>
+            <button onclick="getValue(event)"> 3 </button>
+            <button onclick="getValue(event)" class="operator"> - </button>
+        </div>
+        <div class="row">
+            <button onclick="getValue(event)" > 00 </button>
+            <button onclick="getValue(event)"> 0 </button>
+            <button onclick="getValue(event)" class="operator"> . </button>
+            <button onclick="result()" class="equal_btn"> = </button>
+        </div>
+
+
+    </div>
+
+    <script src="./calculator.js">
+
+    </script>
+</body>
+</html>

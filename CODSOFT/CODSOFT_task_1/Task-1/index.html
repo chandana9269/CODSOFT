@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+        <nav id="navbar">
+            <div class="logo">N CHANDANA</div>
+            <div>
+                <ul class="nav-contents">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about_me">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#My-Skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="profile_pic">
+                <img src="./files/IMG_20221026_211427.jpg" alt="Chandana pic">
+            </div>
+
+            <div class="description">
+                <p class="des_p1">Hi I'am</p>
+                <h1 class="des_h1">N CHANDANA</h1>
+                <P class="des_p2">Full Stack Developer</P>
+                <div class="button_container">
+                    <button class="resume" onclick="window.open('./files/chandana_resume')">DOWNLOAD RESUME</button>
+                    <button class="contact" onclick="location.href='#contact'">CONTACT INFO</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about_me">
+            <div class="about_left">
+                <h1 class="about_heading">ABOUT ME</h1>
+                <p class="about_text">
+                    Hi there! I am Chandana I am Civil Engineering Graduate from Rajiv Gandhi University of Knowledge Technologies, RK-Valley.
+                    After graduating with intrest and passion towards information technology I joined JSpiders-Traiing & Development Center and completed my Java fullstack course and learned skills like Java ,J2EE ,HTML ,CSS ,JavaScript and MySQl.
+                    <br><br>
+                    I am aspiring for the position of Java-fullstack Developer where I can use my skills and learn new skills and grow in my career.
+                </p>
+            </div>
+            <div class="about_pic">
+                <img src="./files/IMG_20221026_211427.jpg" alt="bg_img">
+            </div>
+        </section>
+
+        <section id="My-Skills">
+            <h1 class="skills_heading">MY SKILLS</h1>
+            <div class="skills_box">
+                <div class="html">
+                    <img src="./files/html.jpg" alt="html">
+                    <h2>HTML</h2>
+                </div>
+                <div class="css">
+                    <img src="./files/css.jpg" alt="CSS">
+                    <h2>CSS</h2>
+                </div>
+                <div class="Js">
+                    <img src="./files/js.jpg" alt="JS">
+                    <h2>JavaScript</h2>
+                </div>
+            </div>
+            <div class="skills_box">
+                <div class="java">
+                    <img src="./files/java.jpg" alt="Java">
+                    <h2>JAVA</h2>
+                </div>
+                <div class="j2ee">
+                    <img src="./files/j2.jpg" alt="J2EE">
+                    <h2>J2EE</h2>
+                </div>
+                <div class="mysql">
+                    <img src="./files/mysql.jpg" alt="MySql">
+                    <h2>MySql</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>PROJECTS</h1>
+            <div class="project_container">
+                <div class="proj-1">
+                    <img src="./files/portfolio.jpg" alt="MyPortfolio">
+                    <h2>My Portfolio</h2>
+                    <p>Developed using HTML and CSS.It Contains different sections like about,skills,projects and contact details.</p>
+                </div>
+                <div class="proj-1">
+                    <img src="./files/calculator.jpg" alt="Calculator">
+                    <h2>Calculator</h2>
+                    <p>Developed using HTML CSS and JavaScript.We can perform basic Operations like normal calculator.</p>
+                </div>
+                <div class="proj-1">
+                    <img src="./files/student_managemen.jpg" alt="student_management">
+                    <h2>Student Management</h2>
+                    <p>Developed Using Java JDBC and MySql.By Using this Project We can Perform basic CRUD Operations on Student Information</p>
+                </div>
+                <div class="proj-1">
+                    <img src="./files/shoping.jpg" alt="shopping_cart">
+                    <h2>Shopping Cart</h2>
+                    <p>Developed Using Java Servlets HTML and CSS. By Using this we Add,Delete,Update and Retrieve cart items.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+        
+            <h1>CONTACT ME</h1>
+            <div class="contact_container">
+                <div class="contact_info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p><a href="gmail.com">chandana0920@gmail.com</a></p>
+                </div>
+                <div class="contact_info">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p><a href="linkedin.com/in/chandana-n-135542205">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-contents">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#about_me">ABOUT</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#My-Skills">SKILLS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p> CopyRight &copy;2023 Chandana . All Rights Reserved </p>
+        </footer>
+
+
+        <script src="portfolio.js">
+             
+        </script>
+</body>
+</html>
